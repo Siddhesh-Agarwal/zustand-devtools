@@ -1,7 +1,7 @@
 {
   "name": "zustand-tanstack-devtools",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tanstack DevTools for Zustand",
   "author": "Siddhesh Agarwal <contact@siddhesh.cc> (https://siddhesh.cc)",
   "license": "MIT",
@@ -16,7 +16,8 @@
   "keywords": [
     "zustand",
     "devtools",
-    "tanstack"
+    "tanstack",
+    "react"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
