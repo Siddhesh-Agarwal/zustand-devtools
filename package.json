@@ -1,13 +1,17 @@
 {
-  "name": "zustand-devtools",
+  "name": "zustand-tanstack-devtools",
   "type": "module",
   "version": "0.0.1",
   "description": "Tanstack DevTools for Zustand",
-  "author": "Siddhesh Agarwal",
+  "author": "Siddhesh Agarwal <contact@siddhesh.cc> (https://siddhesh.cc)",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Siddhesh-Agarwal/zustand-devtools"
+  },
+  "homepage": "https://github.com/Siddhesh-Agarwal/zustand-devtools",
+  "bugs": {
+    "url": "https://github.com/Siddhesh-Agarwal/zustand-devtools/issues"
   },
   "keywords": [
     "zustand",
