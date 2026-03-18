@@ -1,0 +1,63 @@
+{
+  "name": "zustand-devtools",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Tanstack DevTools for Zustand",
+  "author": "Siddhesh Agarwal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhesh-Agarwal/zustand-devtools"
+  },
+  "keywords": [
+    "zustand",
+    "devtools",
+    "tanstack"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write ."
+  },
+  "peerDependencies": {
+    "@tanstack/react-devtools": ">=0.7.0",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "zustand": ">=4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.7",
+    "@tanstack/react-devtools": "^0.7.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "zustand": "^5.0.0"
+  },
+  "packageManager": "pnpm@10.25.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "dependencies": {
+    "lucide-react": "^0.577.0"
+  }
+}
