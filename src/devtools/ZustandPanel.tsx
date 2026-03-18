@@ -1,5 +1,5 @@
-import { Check, Clipboard, RotateCcw, Trash2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { Check, Clipboard, RotateCcw, Trash2 } from "./icons";
 import { JsonTree } from "./JsonTree";
 import * as styles from "./styles";
 import type { Snapshot, StoreConfig } from "./types";

@@ -56,8 +56,5 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
-  },
-  "dependencies": {
-    "lucide-react": "^0.577.0"
   }
 }
